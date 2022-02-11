@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="shortcut icon" href="https://www.pngplay.com/wp-content/uploads/12/Pinterest-Logo-Transparent-Clip-Art-Image.png">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">Portfo<span>lio.</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#about">Perfil</a></li>
+          <li><a href="#services">Capacidades</a></li>
+          <li><a href="#skills">Conocimientos</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hola! Me llamo</div>
+          <div class="text-2">Agustin Landajo</div>
+          <div class="text-3">Y soy <span class="typing"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!--about section ---------------------------------------------------------->
+
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">Perfil</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="images/profile.jpg" alt="Profile" />
+          </div>
+          <div class="column right">
+            <p>
+              Mi nombre es Agustín, soy técnico en Multimedia, estudiante de Ingeniería en Informática y graduado de la carrera de Desarrollo Front-End orientada a React JS de Coder House. Actualmente estoy cursando Javascript Algorithms and Data Structures Certification en freeCodeCamp. Siento gran pasión por el mundo informático y por el aprendizaje de nuevas tecnologías y su implementación. Estoy en busca de una oportunidad para aplicar mis conocimientos e ideas al ámbito profesional, así como para también crecer profesionalmente y desarrollarme en un buen entorno de trabajo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Skills section --------------------------------------------------------->
+
+    <section class="services" id="services">
+      <div class="max-width">
+        <h2 class="title">Capacidades</h2>
+        <div class="serv-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-paint-brush"></i>
+              <div class="text">Diseño Web</div>
+              <p>
+                Diseño del prototipado con herramientas como Figma o Balsemiq. Maquetado responsive con HTML y CSS
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+              <div class="text">Programacion</div>
+              <p>
+                Creación de sitios dinámicos y SPA con Javascript y React JS. Implementación de C para hacer aplicaciones.  
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-chart-bar"></i>
+              <div class="text">Bases de Datos</div>
+              <p>
+                Implementación de bases de datos en Firebase para guardar o pedir la información necesaria.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Technologies section ------------------------------------------------------------>
+
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title">Conocimientos</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">Tecnologías conocidas</div>
+            <p>
+              A lo largo de mis carreras y aprendizaje, tuve la oportunidad de conocer e implementar varias tecnologías y herramientas. En el transcurso de mi tecnicatura así como en la carrera de Coder House se hizo un enfoque en HTML, CSS y Javascript, con librerías como Bootstrap, JQuery y React JS y pre-procesadores tales como SASS y JSX. También aprendí a pedir y alojar información en una base de datos y algunas APIs.
+              En la carrera de Ingeniería en Informática actualmente estoy viendo C y sus diversas bibliotecas para el desarrollo de aplicaciones y para tener un acercamiento a los lenguajes de tipado fuerte.
+            </p>
+          </div>
+          <div class="column right">
+            <img src="https://miro.medium.com/max/1360/1*zVnWJtyGOX_kUIDm6ccCfQ.gif" alt="GIF">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Projects section ------------------------------------------------------------->
+
+    <section class="projects" id="projects">
+      <div class="max-width">
+        <h2 class="title">Mis Proyectos</h2>
+        <div class="carousel owl-carousel">
+          <a href="https://inspiring-rosalind-55dd3e.netlify.app/" target="_blank">
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/indies.png"
+                alt="Indies"
+              />
+              <div class="text">Indies</div>
+              <p>
+                Mi último proyecto, consiste en un e-commerce realizado principalmente con React JS, recibe y envia información a una DB en Firebase
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://silly-payne-966012.netlify.app/index.html" target="_blank">
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/gardenmarket.png"
+                alt="Garden Market"
+              />
+              <div class="text">Garden Market</div>
+              <p>
+                E-commerce de un emprendimiento de productos del hogar. Prototipado con Balsamiq y maquetado con HTML, CSS, Bootstrap y SASS
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://blissful-hugle-d806e3.netlify.app/index.html" target="_blank">
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/starwars.png"
+                alt="Ejemplo"
+              />
+              <div class="text">SW Fan Page</div>
+              <p>
+                Uno de mis primeros proyectos para la facultad, es una página de la saga Star Wars. Realizado con HTML, CSS, y Javascript 
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://zealous-jang-088cca.netlify.app/" target="_blank">
+          <div class="card">
+            <div class="box">
+              <img
+                src="images/gardenmarketjs.png"
+                alt="Ejemplo"
+              />
+              <div class="text">Garden Market 2</div>
+              <p>
+                Primer acercamiento al carrito de compras, basandome en la página de Garden Market. Realizado con JS y Jquery, guarda datos en el Storage
+              </p>
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer section -------------------------------------------------------------------->
+
+    <footer>
+      <div class="max-width">
+        <div class="footer-content">
+          <div class="info">
+            <div class="text-info">Contacto</div>
+            <div class="info-p">
+              <p>Teléfono: 11-6215-0500</p>
+            <p>Email: aguslandajo@gmail.com</p>
+            </div>
+            
+          </div>
+          <div class="media">
+            <div class="text-media">Redes</div>
+            <div class="media-p">
+             <a href="https://www.linkedin.com/in/agustin-landajo" target="_blank"><i class="fab fa-linkedin"></i></a> 
+             <a href="https://github.com/Agus-Landajo?tab=repositories" target="_blank"><i class="fab fa-github"></i></a> 
+            </div>
+          
+          </div>
+          
+        </div>
+       
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
